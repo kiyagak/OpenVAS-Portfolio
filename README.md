@@ -83,10 +83,31 @@ You can run an immediate scan of your desired target using these steps:
 
 ## View the Report
 
-Once the scan is done you can view the report to find information that includes the results, hosts, port information, applications, operating systems, CVEs, closed CVEs, TLS certificates, error messages, and user tags.  
+Once the scan is done you can view the report to find information that includes 
+- the results
+- hosts
+- port information
+- applications
+- operating systems
+- CVEs
+- closed CVEs
+- TLS certificates
+- error messages
+- and user tags.  
 
 <img width="1383" height="715" alt="image" src="https://github.com/user-attachments/assets/b15fd4bb-4db6-4f64-8475-0cb292eefc43" />
 
-The **Results** tab of the port will list the vulnerabilities found, with information about the vulnerability, severity, and the quality of detection (QoD).  
+The **Results** tab of the port will list the vulnerabilities found, with information about 
+- the vulnerability
+- severity
+- and quality of detection (QoD).  
 
 <img width="1383" height="749" alt="image" src="https://github.com/user-attachments/assets/0d7ffa75-f588-4ab0-a3d9-599c1f08bd85" />
+
+You can click each vulnerability to see 
+- its summary
+- detection result
+- detection method
+- solution or mitigation method
+- and references to the CVE and other relevant information.  
+    
