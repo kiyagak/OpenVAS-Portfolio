@@ -89,5 +89,4 @@ Once the scan is done you can view the report to find information that includes 
 
 The **Results** tab of the port will list the vulnerabilities found, with information about the vulnerability, severity, and the quality of detection (QoD).  
 
-
-
+<img width="1383" height="749" alt="image" src="https://github.com/user-attachments/assets/0d7ffa75-f588-4ab0-a3d9-599c1f08bd85" />
