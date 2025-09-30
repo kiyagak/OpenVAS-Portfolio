@@ -72,7 +72,7 @@ You can run an immediate scan of your desired target using these steps:
 2. Click **Tasks**.
 3. Click the **task wizard** at the top of the window by clicking the black **wand** beside the encircled question mark.  
 
-<img width="1383" height="714" alt="image" src="https://github.com/user-attachments/assets/c7113dc3-fe72-4b93-8dbd-ab99dc9c2fde" />
+<img width="1383" height="714" alt="image" src="https://github.com/user-attachments/assets/22c55620-ceef-465d-99f6-f38080676f30" />
 
 4. In the **IP address or hostname** field enter your desired **target IP address**.
 5. Click **Start Scan**.
