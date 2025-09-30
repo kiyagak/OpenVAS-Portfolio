@@ -3,7 +3,7 @@ A portfolio showcasing my use of OpenVAS, a vulnerability scanner that users com
 
 # Installation Steps
 
-I installed OpenVAS on Kali Linux, which includes OpenVAS in its official repositories.  
+I installed OpenVAS on Kali Linux, a Debian-based Linux distribution which includes OpenVAS in its official repositories.  
 
 Update your system packages:
 
