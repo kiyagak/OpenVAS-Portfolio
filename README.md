@@ -56,10 +56,21 @@ Upon login you will see a message saying "Feed is currently syncing."  The first
 
 You can view the feed status within OpenVAS using these steps:
 
-1. Under Dashboards choose **Administration**.  
-2. Choose **Feed Status**.
+1. In the left pane under Dashboards click **Administration**.  
+2. Click **Feed Status**.
 3. You will be able to run scans once all feeds are **Current**.  
 
 <img width="1383" height="714" alt="image" src="https://github.com/user-attachments/assets/0683c9e6-7fa4-49d3-ab68-4963d994f5a6" />
+
+# Run an Immediate Scan
+
+You can run an immediate scan of your desired target using these steps:
+
+1. In the left pane under Dashboards click **Scans**.
+2. Click **Tasks**.
+3. Click the **task wizard** at the top of the window by clicking the **black magic wand** beside the encircled question mark.  
+
+<img width="1385" height="831" alt="image" src="https://github.com/user-attachments/assets/c3eab72e-003a-4931-9aa0-d043813c081b" />
+
 
 
