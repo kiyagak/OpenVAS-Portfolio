@@ -55,6 +55,7 @@ Upon login you will see a message saying "Feed is currently syncing."  The first
 <img width="1382" height="443" alt="image" src="https://github.com/user-attachments/assets/c39cef01-288c-4651-a508-e99dfb220d41" />
 
 You can view the feed status within OpenVAS using these steps:
+
     1. Under Dashboards choose **Administration**.  
     2. Choose **Feed Status**.  
 
