@@ -34,7 +34,7 @@ or
     
     https://127.0.0.1:9392
 
-# How to Change the OpenVAS Admin Password in the Terminal
+# Change the OpenVAS Admin Password
 
 Open the Terminal to run the following commands.  
 
