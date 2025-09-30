@@ -1,9 +1,9 @@
 # OpenVAS-Portfolio
-A portfolio showcasing my use of OpenVAS, a vulnerability scanner that users community and commercial threat feeds to identify vulnerabilities within systems and networks.  
+A portfolio showcasing my use of OpenVAS, a vulnerability scanner that uses community and commercial threat feeds to identify vulnerabilities within systems and networks.  
 
 # Installation Steps
 
-I installed OpenVAS on Kali Linux, a Debian-based Linux distribution which includes OpenVAS in its official repositories.  
+I installed OpenVAS on Kali Linux, a Debian-based Linux distribution that includes OpenVAS in its official repositories.  
 
 Update your system packages:
 
@@ -43,7 +43,7 @@ Start OpenVAS:
 
     sudo gvm-start
 
-Access the OpenVAS web interface with the default "admin" user and password either generated during setup or the one you changed it to.
+Access the OpenVAS web interface with the default "admin" user and password, either generated during setup or the one you changed it to.
 
     https://localhost:9392
 or
@@ -52,13 +52,13 @@ or
 
 # OpenVAS Threat Feed Synchronization
 
-Upon login you will see a message saying "Feed is currently syncing."  The first OpenVAS feed synchronization after first installation typically takes several hours, depending on the performance of the host system and network speed. It downloads and loads several gigabytes of data into databases. It can take roughly two hours or more in common setups. While this is happening, the scanner may not yet be ready to run scans because it is still downloading and processing vulnerability test data and other community and commercial security threat feeds.
+Upon login you will see a message that says "**Feed is currently syncing.**"  The first OpenVAS feed synchronization after first installation typically takes several hours, depending on the performance of the host system and network speed. It downloads and loads several gigabytes of data into databases. It can take roughly two hours or more in common setups. While this is happening, the scanner may not yet be ready to run scans because it is still downloading and processing vulnerability test data and other community and commercial security threat feeds.
 
 <img width="1382" height="443" alt="image" src="https://github.com/user-attachments/assets/c39cef01-288c-4651-a508-e99dfb220d41" />
 
 You can view the feed status within OpenVAS using these steps:
 
-1. In the left pane under Dashboards click **Administration**.  
+1. In the left pane under Dashboards, click **Administration**.  
 2. Click **Feed Status**.
 3. You will be able to run scans once all feeds are **Current**.  
 
@@ -68,22 +68,22 @@ You can view the feed status within OpenVAS using these steps:
 
 You can run an immediate scan of your desired target using these steps:
 
-1. In the left pane under Dashboards click **Scans**.
+1. In the left pane under Dashboards, click **Scans**.
 2. Click **Tasks**.
 3. Click the **task wizard** at the top of the window by clicking the black **wand** beside the encircled question mark.  
 
 <img width="1383" height="714" alt="image" src="https://github.com/user-attachments/assets/22c55620-ceef-465d-99f6-f38080676f30" />
 
-4. In the **IP address or hostname** field enter your desired **target IP address**.
+4. In the **IP address or hostname** field, enter your desired **target IP address**.
 5. Click **Start Scan**.
 
 <img width="553" height="643" alt="image" src="https://github.com/user-attachments/assets/50232b4c-e8d7-4be5-97e6-ad2031dd297f" />
 
-**Scan durations** are usually between **30 minutes to several hours** depending on the environment and scan scope.  
+**Scan durations** are usually between **30 minutes to several hours**, depending on the environment and scan scope.  
 
 ## View the Report
 
-Once the scan is done you can view the report to find information that includes 
+Once the scan is done, you can view the report to find information that includes 
 - the results
 - hosts
 - port information
