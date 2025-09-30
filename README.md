@@ -77,11 +77,9 @@ You can run an immediate scan of your desired target using these steps:
 4. In the **IP address or hostname** field enter your desired **target IP address**.
 5. Click **Start Scan**.
 
-**Scan durations** are usually between **30 minutes to several hours** depending on the environment and scan scope.  
-
 <img width="553" height="643" alt="image" src="https://github.com/user-attachments/assets/50232b4c-e8d7-4be5-97e6-ad2031dd297f" />
 
-
+**Scan durations** are usually between **30 minutes to several hours** depending on the environment and scan scope.  
 
 
 
