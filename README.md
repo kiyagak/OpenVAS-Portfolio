@@ -23,6 +23,10 @@ Check the setup status:
     
     sudo gvm-check-setup
 
+Start OpenVAS:
+
+    sudo gvm-start
+
 Access the OpenVAS web interface with the default "admin" user and password generated during setup.
 
     https://localhost:9392
@@ -30,8 +34,18 @@ or
     
     https://127.0.0.1:9392
 
-To change the OpenVAS admin password run the following command in the terminal:
+# How to Change the OpenVAS Admin Password in the Terminal
+
+Open the Terminal to run the following commands.  
+
+Stop the GVM service:
+
+        sudo gvm-stop
+
+Change the OpenVAS admin password:
 
     sudo runuser -u _gvm -- gvmd --user=admin --new-password=NEW_PASSWORD
 
+Start the GVM service again:
 
+    sudo gvm-start
