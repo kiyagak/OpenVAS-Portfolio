@@ -35,6 +35,8 @@ Change the OpenVAS admin password:
 
     sudo runuser -u _gvm -- gvmd --user=admin --new-password=NEW_PASSWORD
 
+# Access and Log into OpenVAS
+
 Start OpenVAS:
 
     sudo gvm-start
@@ -46,6 +48,15 @@ or
     
     https://127.0.0.1:9392
 
-Upon login you will see a message saying "Feed is currently syncing."  The first OpenVAS feed synchronization after first installation typically takes several hours, depending on the performance of the host system and network speed. It downloads and loads several gigabytes of data into databases. It can take roughly two hours or more in common setups. While this is happening, the scanner may not yet be ready to run scans because it is still downloading and processing vulnerability test data and other security feeds.
+# OpenVAS Threat Feed Synchronization
+
+Upon login you will see a message saying "Feed is currently syncing."  The first OpenVAS feed synchronization after first installation typically takes several hours, depending on the performance of the host system and network speed. It downloads and loads several gigabytes of data into databases. It can take roughly two hours or more in common setups. While this is happening, the scanner may not yet be ready to run scans because it is still downloading and processing vulnerability test data and other community and commercial security threat feeds.
 
 <img width="1382" height="443" alt="image" src="https://github.com/user-attachments/assets/c39cef01-288c-4651-a508-e99dfb220d41" />
+
+You can view the feed status within OpenVAS using these steps:
+    1. Under Dashboards choose **Administration**.  
+    2. Choose **Feed Status**.  
+
+<img width="1383" height="714" alt="image" src="https://github.com/user-attachments/assets/c9111731-fc44-400a-bb17-e2da240ec96e" />
+
