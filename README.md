@@ -11,7 +11,7 @@ Update your system packages:
     sudo apt upgrade -y
     sudo apt dist-upgrade -y
 
-**Make sure firewall ports are open** for a **smooth installation**.  Then install OpenVAS:
+**Make sure your network's firewall ports are open** for a **smooth installation**.  Then install OpenVAS:
     
     sudo apt install openvas
 
