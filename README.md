@@ -26,5 +26,7 @@ Check the setup status:
 Access the OpenVAS web interface with the default "admin" user and password generated during setup.
 
     https://localhost:9392
-    or https://127.0.0.1:9392
+or
+    
+    https://127.0.0.1:9392
 
