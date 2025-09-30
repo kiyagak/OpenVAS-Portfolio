@@ -23,13 +23,15 @@ Check the setup status:
     
     sudo gvm-check-setup
 
+If there are any warnings or suggestions, follow the steps presented in the terminal to correct them.  
+
 # Change the OpenVAS Admin Password
 
 Open the Terminal to run the following commands.  
 
 Stop the GVM service:
 
-        sudo gvm-stop
+    sudo gvm-stop
 
 Change the OpenVAS admin password:
 
