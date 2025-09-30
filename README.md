@@ -72,6 +72,12 @@ You can run an immediate scan of your desired target using these steps:
 
 <img width="1383" height="714" alt="image" src="https://github.com/user-attachments/assets/c7113dc3-fe72-4b93-8dbd-ab99dc9c2fde" />
 
+4. Enter your **target IP address** in the **IP address or hostname** field.
+5. Click **Start Scan**.
+
+<img width="553" height="643" alt="image" src="https://github.com/user-attachments/assets/50232b4c-e8d7-4be5-97e6-ad2031dd297f" />
+
+
 
 
 
