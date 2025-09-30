@@ -30,3 +30,8 @@ or
     
     https://127.0.0.1:9392
 
+To change the OpenVAS admin password run the following command in the terminal:
+
+    sudo runuser -u _gvm -- gvmd --user=admin --new-password=NEW_PASSWORD
+
+
