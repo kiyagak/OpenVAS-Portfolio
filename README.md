@@ -81,5 +81,14 @@ You can run an immediate scan of your desired target using these steps:
 
 **Scan durations** are usually between **30 minutes to several hours** depending on the environment and scan scope.  
 
+## View the Report
+
+Once the scan is done you can view the report to find information that includes the results, hosts, port information, applications, operating systems, CVEs, closed CVEs, TLS certificates, error messages, and user tags.  
+
+The **Results** tab of the port will list the vulnerabilities found, with information about the vulnerability, severity, and the quality of detection (QoD).  
+
+<img width="1383" height="715" alt="image" src="https://github.com/user-attachments/assets/5d0b06b9-8a78-471f-90d1-fad634a680d2" />
+
+
 
 
