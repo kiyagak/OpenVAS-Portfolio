@@ -104,10 +104,10 @@ The **Results** tab of the port will list the vulnerabilities found, with inform
 
 <img width="1383" height="749" alt="image" src="https://github.com/user-attachments/assets/0d7ffa75-f588-4ab0-a3d9-599c1f08bd85" />
 
-You can click each vulnerability to see 
-- its summary
+You can click each vulnerability to see its
+- summary
 - detection result
 - detection method
 - solution or mitigation method
-- and references to the CVE and other relevant information.  
+- references to the CVE and other relevant information.  
     
