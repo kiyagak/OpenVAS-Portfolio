@@ -70,7 +70,7 @@ You can run an immediate scan of your desired target using these steps:
 
 1. In the left pane under Dashboards, click **Scans**.
 2. Click **Tasks**.
-3. Click the **task wizard** at the top of the window by clicking the black **wand** beside the encircled question mark.  
+3. At the top of the window click the **task wizard** by clicking the black **wand** beside the encircled question mark.  
 
 <img width="1383" height="714" alt="image" src="https://github.com/user-attachments/assets/22c55620-ceef-465d-99f6-f38080676f30" />
 
