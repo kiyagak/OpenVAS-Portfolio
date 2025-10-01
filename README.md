@@ -2,7 +2,6 @@
 A portfolio showcasing my use of OpenVAS, a vulnerability scanner that uses community and commercial threat feeds to identify vulnerabilities within systems and networks.  
 
 # Installation Steps
-
 I installed OpenVAS on Kali Linux, a Debian-based Linux distribution that includes OpenVAS in its official repositories.  
 
 Update your system packages:
@@ -26,7 +25,6 @@ Check the setup status:
 If there are any warnings or suggestions, follow the steps presented in the terminal to correct them.  
 
 # Change the OpenVAS Admin Password
-
 Open the Terminal to run the following commands.  
 
 Stop the GVM service:
@@ -38,7 +36,6 @@ Change the OpenVAS admin password:
     sudo runuser -u _gvm -- gvmd --user=admin --new-password=NEW_PASSWORD
 
 # Access and Log into OpenVAS
-
 Start OpenVAS:
 
     sudo gvm-start
@@ -51,7 +48,6 @@ or
     https://127.0.0.1:9392
 
 # OpenVAS Threat Feed Synchronization
-
 Upon login you will see a message that says "**Feed is currently syncing.**"  The first OpenVAS feed synchronization after first installation typically takes several hours, depending on the performance of the host system and network speed. It downloads and loads several gigabytes of data into databases. It can take roughly two hours or more in common setups. While this is happening, the scanner may not yet be ready to run scans because it is still downloading and processing vulnerability test data and other community and commercial security threat feeds.
 
 <img width="1382" height="443" alt="image" src="https://github.com/user-attachments/assets/c39cef01-288c-4651-a508-e99dfb220d41" />
@@ -65,7 +61,6 @@ You can view the feed status within OpenVAS using these steps:
 <img width="1383" height="714" alt="image" src="https://github.com/user-attachments/assets/0683c9e6-7fa4-49d3-ab68-4963d994f5a6" />
 
 # Run an Immediate Scan
-
 You can run an immediate scan of your desired target using these steps:
 
 1. In the left pane under Dashboards, click **Scans**.
@@ -82,7 +77,6 @@ You can run an immediate scan of your desired target using these steps:
 **Scan durations** are usually between **30 minutes to several hours**, depending on the environment and scan scope.  
 
 ## View the Report
-
 Once the scan is done, you can view the report to find information that includes 
 - the results
 - hosts
@@ -109,5 +103,7 @@ You can click each vulnerability to see its
 - detection result
 - detection method
 - solution or mitigation method
-- references to the CVE and other relevant information.  
-    
+- references to the CVE and other relevant information.
+
+# What I Learned
+After running a vulnerability scan on my target system I discovered an open port and the need to check for discard Service (TCP).  Checking the vulnerabilities' associated mitigations suggested to take steps within the system to correct the discard Service (TCP) and to verify whether or not the port 0 vulnerability is a true positive or a false positive vulnerability through monitoring and system investigation.  
